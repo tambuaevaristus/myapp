@@ -1,6 +1,9 @@
 import React from 'react'
+interface Props{
+    total: number;
+}
 
-export const Navbar = () => {
+export const Navbar = (props:Props) => {
   return (
     
 <nav className="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
@@ -19,6 +22,8 @@ export const Navbar = () => {
         </li>
       </ul>
     </div>
+
+    <button className='bg-green-500 px-4 py-2 rounded-full text-xl'>{props.total}</button>
   </div>
 </nav>
 

@@ -1,7 +1,11 @@
 import React from "react";
 import { Product } from "./Product";
+interface Props{
+    setTotal: React.Dispatch<React.SetStateAction<number>>;
 
-export const ProductList = () => {
+  }
+
+export const ProductList = (props:Props) => {
   const data = [
     {
       title: "",
@@ -115,6 +119,7 @@ export const ProductList = () => {
     },
   ];
 
+ 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
       {data.map((product) => (
@@ -122,6 +127,7 @@ export const ProductList = () => {
           title={product.title}
           description={product.description}
           price={product.price}
+          setTotal={props.setTotal}
         
         />
       ))}
