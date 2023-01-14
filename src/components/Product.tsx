@@ -2,9 +2,10 @@ import React, { ChangeEvent, FC, useState } from "react";
 import { Productt } from "../types";
 
 
+
 export const Product = (props: Productt) => {
   const [qty, setQty] = useState<number>(0);
-
+// Something new i learn
   const decr = () => {
     if (qty > 0) {
       setQty((qty) => qty - 1);
