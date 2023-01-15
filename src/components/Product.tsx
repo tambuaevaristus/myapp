@@ -17,6 +17,8 @@ export const Product = (props: Productt) => {
 
   };
 
+  // new adjustment
+
   return (
     <div>
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
