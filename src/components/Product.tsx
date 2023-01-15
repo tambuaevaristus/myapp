@@ -17,7 +17,7 @@ export const Product = (props: Productt) => {
 
   };
 
-  // new adjustment
+  
 
   return (
     <div>
