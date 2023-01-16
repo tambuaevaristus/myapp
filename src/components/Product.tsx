@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FC, useState } from "react";
+import React, { useState } from "react";
 import { Productt } from "../types";
 
 
