@@ -17,7 +17,7 @@ export const Product = (props: Productt) => {
 
   };
 
-  
+  // Its left just small
 
   return (
     <div>
