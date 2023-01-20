@@ -17,7 +17,7 @@ export const Product = (props: Productt) => {
 
   };
 
-
+// Product has to be global to ease transfer
   return (
     <div>
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
