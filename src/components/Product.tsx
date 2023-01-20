@@ -42,7 +42,7 @@ export const Product = (props: Productt) => {
             </button>
           )}
 
-          {/* quantity displayed */}
+          {/* quantity */}
           <p>{qty}</p>
           <button className="px-2 py-2 rounded-sm bg-blue-400" onClick={incr}>
             +
